@@ -13,6 +13,8 @@ body {
     text-align: center;
 }
 
+
+
 header {
     background-color: #064f90;
 
@@ -32,6 +34,7 @@ header {
 }
 
 #stitch-image {
+    width: 30vh;
     height: auto;
 }
 
@@ -48,6 +51,7 @@ header {
 
     column-gap: 30px;
 }
+
 
 .botoes button{
     padding: 10px 50px 10px 50px;
@@ -71,6 +75,6 @@ header {
 }
 
 .botoes button#no-button {
-    background-color: red;
+    background-color: rgb(171, 5, 5, 0.85);
 }
 
