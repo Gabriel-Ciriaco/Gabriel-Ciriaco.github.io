@@ -1,0 +1,76 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #6BD9F2;
+    color: white;
+
+    margin: 0;
+
+    font-family: 'Inter';
+    font-size: 12px;
+    text-align: center;
+}
+
+header {
+    background-color: #064f90;
+
+    margin: 0;
+    padding: 8px;
+
+    font-size: 0.8rem;
+}
+
+#conteudo {
+    background-color: #3D9DD9;
+
+    margin-bottom: 20px;
+    padding: 10px;
+
+    font-size: 1rem;
+}
+
+#stitch-image {
+    height: auto;
+}
+
+.botoes {
+    margin: 4vh;
+
+    display: flex;
+
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    justify-content: center;
+    align-content: center;
+
+    column-gap: 30px;
+}
+
+.botoes button{
+    padding: 10px 50px 10px 50px;
+
+    color: white;
+    font-size: large;
+    font-weight: 550;
+
+    border: none;
+    border-radius: 8px;
+
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.botoes button:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.botoes button#yes-button {
+    background-color: rgb(5, 171, 110)
+}
+
+.botoes button#no-button {
+    background-color: red;
+}
+
