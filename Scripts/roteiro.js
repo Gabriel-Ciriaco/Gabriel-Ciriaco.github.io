@@ -55,6 +55,7 @@ function animations_timeline()
   trigger_anim(header, 0);
   trigger_anim(conteudo, 1000);
   trigger_anim(image, 2000);
+
   no_button.hidden = true;
   yes_button.hidden = true;
   trigger_anim(buttons, 3000);
@@ -64,7 +65,6 @@ function animations_timeline()
 function next_slide(image_content, title_text, text_content)
 {
   let title = document.getElementById("main-title");
-  let conteudo = document.getElementById("conteudo");
   let slide_text = document.getElementById("slide-text");
 
   let slide_image = document.getElementById("stitch-image");
@@ -184,8 +184,8 @@ function change_slide()
         "Parabéns! Muito feliz pelos dois!!!",
         "Você é uma pessoa muito especial ❤️"
       );
-      no_button.hidden = true;
-      yes_button.hidden = true;
+      no_button.remove();
+      yes_button.remove();
       break;
 
       case 10:
@@ -194,8 +194,8 @@ function change_slide()
         "Não tem problema! Quem sabe numa próxima?",
         null
       );
-      no_button.hidden = true;
-      yes_button.hidden = true;
+      no_button.remove();
+      yes_button.remove();
       break;
   }
 }
